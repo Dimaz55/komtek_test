@@ -1,0 +1,146 @@
+[
+{
+  "model": "main.refbook",
+  "pk": 1,
+  "fields": {
+    "code": "1",
+    "name": "Специальности медицинских работников",
+    "description": ""
+  }
+},
+{
+  "model": "main.refbook",
+  "pk": 2,
+  "fields": {
+    "code": "2",
+    "name": "Заболевания",
+    "description": ""
+  }
+},
+{
+  "model": "main.refbookversion",
+  "pk": 1,
+  "fields": {
+    "refbook": 1,
+    "version": "1.0",
+    "effective_date": "2022-01-01"
+  }
+},
+{
+  "model": "main.refbookversion",
+  "pk": 2,
+  "fields": {
+    "refbook": 1,
+    "version": "1.1",
+    "effective_date": "2022-10-22"
+  }
+},
+{
+  "model": "main.refbookversion",
+  "pk": 3,
+  "fields": {
+    "refbook": 2,
+    "version": "1.0.0",
+    "effective_date": "2023-02-10"
+  }
+},
+{
+  "model": "main.refbookversion",
+  "pk": 4,
+  "fields": {
+    "refbook": 2,
+    "version": "1.0.1",
+    "effective_date": "2023-02-11"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 1,
+  "fields": {
+    "refbook_version": 1,
+    "code": "1",
+    "value": "Врач-терапевт"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 2,
+  "fields": {
+    "refbook_version": 1,
+    "code": "2",
+    "value": "Травматолог-ортопед"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 3,
+  "fields": {
+    "refbook_version": 1,
+    "code": "3",
+    "value": "Хирург"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 4,
+  "fields": {
+    "refbook_version": 2,
+    "code": "1a",
+    "value": "Врач-терапевт"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 5,
+  "fields": {
+    "refbook_version": 2,
+    "code": "2a",
+    "value": "Травматолог-ортопед"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 6,
+  "fields": {
+    "refbook_version": 2,
+    "code": "3a",
+    "value": "Хирург"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 7,
+  "fields": {
+    "refbook_version": 3,
+    "code": "a",
+    "value": "Грипп"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 8,
+  "fields": {
+    "refbook_version": 3,
+    "code": "b",
+    "value": "Бронхит"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 9,
+  "fields": {
+    "refbook_version": 4,
+    "code": "aa",
+    "value": "ГРИПП"
+  }
+},
+{
+  "model": "main.refbookelement",
+  "pk": 10,
+  "fields": {
+    "refbook_version": 4,
+    "code": "bb",
+    "value": "БРОНХИТ"
+  }
+}
+]

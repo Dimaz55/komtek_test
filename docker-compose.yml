@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  komtek_test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: komtek_test
+    restart: on-failure
+    command: sh -c "
+      pytest &&
+      python manage.py migrate &&
+      python manage.py loaddata admin.json &&
+      python manage.py loaddata main.json &&
+      python manage.py runserver 0.0.0.0:8000 -v 3"
+    volumes:
+      - ".:/app/komtek_test/"
+    ports:
+      - "8000:8000"
+    env_file: .env

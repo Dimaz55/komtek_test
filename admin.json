@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Xhc8THz7Vbrck6VUFveKoI$JKct5Vr6J1n7LcRzpg0Sg8k/0zIlWRvRjf6BuM+ZZ9s=",
+    "last_login": "2023-02-14T08:16:14.673Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@ru.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-14T08:15:29.612Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
